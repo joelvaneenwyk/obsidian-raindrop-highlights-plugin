@@ -7,7 +7,7 @@ Obsidian Raindrop Highlights (Community Plugin) is an unofficial plugin to synch
 > ⚠️ Append mode is currently broken. See [#47](https://github.com/kaiiiz/obsidian-raindrop-highlights-plugin/issues/47) and [Bug report](https://raindropio.canny.io/bugs/p/wrong-lastupdate-value-in-the-highlights-field-of-the-httpsapiraindropiorestv1ra) for details.
 
 - Sync web article highlights into Obsidian
-- Sync web article annotations into Obsidian (Raindrop PRO user only)
+- Sync web article annotations into Obsidian (Raindrop **PRO** user only)
 - Support nested collections and collection groups
 - Update existing files with new highlights and annotations (2 mode supported)
   - Append new highlights to the end of existing file (default)

@@ -1,37 +1,43 @@
 {
-	"name": "obsidian-raindrop-highlights",
-	"version": "0.0.18",
-	"description": "Sync your Raindrop.io highlights.",
-	"main": "main.js",
-	"scripts": {
-		"dev": "node esbuild.config.mjs",
-		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
-		"version": "node version-bump.mjs && git add manifest.json versions.json"
-	},
-	"keywords": [],
-	"author": "kaiiiz",
-	"license": "MIT",
-	"devDependencies": {
-		"@tsconfig/svelte": "3.0.0",
-		"@types/node": "16.11.6",
-		"@types/nunjucks": "3.2.1",
-		"@types/semver": "^7.5.0",
-		"@types/truncate-utf8-bytes": "^1.0.0",
-		"@typescript-eslint/eslint-plugin": "5.29.0",
-		"@typescript-eslint/parser": "5.29.0",
-		"builtin-modules": "3.3.0",
-		"esbuild": "0.14.47",
-		"esbuild-svelte": "0.7.1",
-		"obsidian": "^1.2.8",
-		"svelte": "3.49.0",
-		"svelte-preprocess": "4.10.7",
-		"tslib": "2.4.0",
-		"typescript": "4.7.4"
-	},
-	"dependencies": {
-		"axios": "0.27.2",
-		"nunjucks": "3.2.3",
-		"sanitize-filename": "1.6.3",
-		"semver": "^7.5.2"
-	}
+    "name": "obsidian-raindrop-highlights",
+    "version": "0.0.18",
+    "description": "Sync your Raindrop.io highlights.",
+    "main": "main.js",
+    "scripts": {
+        "dev": "node esbuild.config.mjs",
+        "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+        "version": "node version-bump.mjs && git add manifest.json versions.json"
+    },
+    "keywords": [],
+    "author": "kaiiiz",
+    "license": "MIT",
+    "devDependencies": {
+        "@tsconfig/svelte": "3.0.0",
+        "@types/node": "16.11.6",
+        "@types/nunjucks": "3.2.1",
+        "@types/semver": "^7.5.0",
+        "@types/truncate-utf8-bytes": "^1.0.0",
+        "@typescript-eslint/eslint-plugin": "5.29.0",
+        "@typescript-eslint/parser": "5.29.0",
+        "builtin-modules": "3.3.0",
+        "esbuild": "0.14.47",
+        "esbuild-svelte": "0.7.1",
+        "obsidian": "^1.2.8",
+        "svelte": "3.49.0",
+        "svelte-preprocess": "4.10.7",
+        "tslib": "2.4.0",
+        "typescript": "4.7.4"
+    },
+    "dependencies": {
+        "axios": "0.27.2",
+        "nunjucks": "3.2.3",
+        "sanitize-filename": "1.6.3",
+        "semver": "^7.5.2"
+    },
+    "prettier": {
+        "semi": true,
+        "useTabs": false,
+        "editorconfig": true,
+        "overrides": []
+    }
 }
